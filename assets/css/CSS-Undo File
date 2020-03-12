@@ -29,18 +29,6 @@
     background-position: center;
 }
 
-/* I deleted the .float code below, it broke, then I re-inserted it.  It makes sense now. */
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -69,6 +57,16 @@ a {
 
 p {
     font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 /* Main Services - Home Page CSS */
